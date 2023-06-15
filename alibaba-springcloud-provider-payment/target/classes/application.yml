@@ -1,0 +1,42 @@
+server:
+  port: 8001 #服务端口
+#spring相关配置
+spring:
+  application:
+    name: mcroservice-payment  #服务名
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    publicKeyOne: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALilJIZ3yrZqB7FSRqpy9JTPAA0aXX+5hmA0fxQrjch4X/3PnFNYEPl6z1F9aNc8qeH1eE1XDVa22OUDvPwkYU8CAwEAAQ==
+    druid:
+      one:
+        url: jdbc:sqlserver://10.132.56.70:3000;DatabaseName=ShiLeiluo
+        username: sa
+        password: jA9/LvG7Y48TtuGbdzXiws9BAmj4ZVF/+MIleNdwQ0iN31iVhSk39GRsSlk1sx6F4nhJp0CP2oxZ9s2lzOdeiA==
+        driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver 
+        db-type: sqlserver
+        initial-size: 5
+        max-active: 500
+        min-idle: 5
+        max-wait: 60000
+        max-pool-prepared-statement-per-connection-size: 50
+        max-open-prepared-statements: 50
+        validation-query: SELECT 1
+        test-on-borrow: false
+        test-on-return: false
+        test-while-idle: true
+        time-between-eviction-runs-millis: 60000
+        min-evictable-idle-time-millis: 300000
+        filters: stat,wall,slf4j
+        passwordCallbackClassName: com.fox.alibaba.component.DbPasswordCallback
+        connection-properties: config.decrypt=true;publicKey=${spring.datasource.publicKeyOne};password=${spring.datasource.druid.one.password}
+        filter:
+          config:
+            enabled: true
+mybatis:
+  config-location: classpath:dao/config/mybatis-config.xml
+  mapper-locations-One: classpath:dao/mapperOne/*.xml
+  type-aliases-package: com.fox.alibaba.pojo    # 所有pojo别名类所在包

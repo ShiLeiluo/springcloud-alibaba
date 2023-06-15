@@ -1,0 +1,12 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource.druid.one",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.fox.alibaba.config.DataSourceOneConfig",
+      "sourceMethod": "public javax.sql.DataSource datasourceOne() "
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

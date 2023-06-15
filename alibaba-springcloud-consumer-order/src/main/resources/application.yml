@@ -1,0 +1,9 @@
+server:
+  port: 80
+spring:
+  application:
+    name: mcroservice-order  #服务名
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
