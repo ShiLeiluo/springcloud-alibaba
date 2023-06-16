@@ -9,6 +9,8 @@ spring:
         file-extension: yaml
         # 是否动态刷新，默认为false
         refresh: true
+        namespace: aa9a3964-7840-4726-8480-dc2d2756ed2b
+        group: DEV_GROUP
       discovery:
         server-addr: localhost:8848
  # 当前环境对应的profile
