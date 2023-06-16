@@ -1,0 +1,65 @@
+﻿1. JDK
+Open JDK下载 (jdk-19.0.1)
+https://jdk.java.net/
+JDK导出JRE
+E:\2023\DEV\JDK\jdk-19.0.1>bin\jlink.exe --module-path jmods --add-modules java.desktop --output jre
+2. Maven 
+Maven下载 (apache-maven-3.8.6)
+https://maven.apache.org/download.cgi
+setting配置
+	<localRepository>E:/2022/Maven/MavenRepository</localRepository>
+		<proxy>
+          <!--id-->
+          <id>optional</id>
+          <!--true 表示生效-->
+          <active>true</active>
+          <!--协议-->
+          <protocol>http</protocol>
+          <!--本机上网用户名及密码，如果没有，请注释或者是删除-->
+          <username>F1329986</username>
+          <password>Fox0608.</password>
+          <!--公司上网使用ip及端口，即代理，这里替换成相对应的ip和端口-->
+          <host>10.191.131.12</host>
+          <port>3128</port>
+        </proxy>
+		
+		<proxy>
+          <!--id-->
+          <id>optionals</id>
+          <!--true 表示生效-->
+          <active>true</active>
+          <!--协议-->
+          <protocol>https</protocol>
+          <!--本机上网用户名及密码，如果没有，请注释或者是删除-->
+          <username>F1329986</username>
+          <password>Fox0608.</password>
+          <!--公司上网使用ip及端口，即代理，这里替换成相对应的ip和端口-->
+          <host>10.191.131.12</host>
+          <port>3128</port>
+        </proxy>
+3. STS		
+STS 下载 (4.16.1.RELEASE)
+https://spring.io/tools 
+
+主题
+DevStyle
+
+设置代码联想
+Window->Java->Editor->Content Assist
+.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890
+
+设置注释模板
+Window->Preference->Java->Code Style->Code Template
+1. 新建文件模板
+${filecomment}
+${package_declaration}
+
+/**
+* @author ${user} ShiLeiluo
+* @date ${currentDate:date('yyyy-MM-dd HH:mm')}
+* @version 1.0
+*/
+${typecomment}
+${type_declaration}
+
+

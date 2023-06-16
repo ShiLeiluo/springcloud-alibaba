@@ -3,7 +3,7 @@ server:
 #spring相关配置
 spring:
   application:
-    name: mcroservice-payment  #服务名
+    name: microservice-payment  #服务名
   cloud:
     nacos:
       discovery:

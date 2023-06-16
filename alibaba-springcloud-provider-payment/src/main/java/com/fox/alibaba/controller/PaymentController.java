@@ -20,6 +20,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @RestController
 @Slf4j
+
 public class PaymentController {
     
 	
@@ -52,6 +53,8 @@ public class PaymentController {
             return new CommonResult<Payment>(444,"查询失败",null);
         }
     }
+    
+    
  
 }
 
