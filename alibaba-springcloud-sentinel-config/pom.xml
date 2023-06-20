@@ -26,6 +26,16 @@
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
         
+        <!-- 告诉cloud alibaba ，这项目要与sentinel dashboard 通信 -->
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-transport-simple-http</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-parameter-flow-control</artifactId>
+        </dependency>
+
         <!-- 引入实体的包 -->
         <dependency>
             <groupId>com.fox.alibaba</groupId>
@@ -56,9 +66,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <!-- 
 		<dependency>
 		    <groupId>com.alibaba.csp</groupId>
 		    <artifactId>sentinel-web-servlet</artifactId>
 		</dependency>
+		-->
     </dependencies>
 </project>

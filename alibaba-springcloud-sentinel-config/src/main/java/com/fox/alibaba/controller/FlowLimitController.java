@@ -20,13 +20,23 @@ public class FlowLimitController {
 	
     @GetMapping("/testA")
     public String testA() {
-        return "testA "+userService.getUserName();
+    	return "testA ";
     }
  
     @GetMapping("/testB")
     public String testB() {
- 
-        return "testB "+userService.getUserName();
+
+    	return "testB ";
+    }
+    
+    @GetMapping("/testC")
+    public String testC() {
+        return "testC "+userService.getUserName();
+    }
+    
+    @GetMapping("/testD")
+    public String testD() {
+        return "testD "+userService.getUserName();
     }
 
 }

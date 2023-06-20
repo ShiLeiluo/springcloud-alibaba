@@ -26,29 +26,28 @@
 	<!--  因为是总项目 所以用dependencyManagement来管理  因为其他的子项目就不会来管理版本了了 可以直接引用 -->
 	<dependencyManagement>
 		<dependencies>
-			<!-- springcloud的依赖-->
-			<dependency>
-				<groupId>org.springframework.cloud</groupId>
-				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>Hoxton.SR1</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-
 			<!--spring-cloud-alibaba-->
 			<dependency>
 				<groupId>com.alibaba.cloud</groupId>
 				<artifactId>spring-cloud-alibaba-dependencies</artifactId>
-				<version>2.1.1.RELEASE</version>
+				<version>2.2.7.RELEASE</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
-
+			
+			<!-- springcloud的依赖-->
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>Hoxton.SR12</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
 			<!-- springboot的依赖-->
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-dependencies</artifactId>
-				<version>2.2.2.RELEASE</version>
+				<version>2.3.12.RELEASE</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
