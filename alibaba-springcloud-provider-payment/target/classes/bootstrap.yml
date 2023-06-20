@@ -9,7 +9,7 @@ spring:
         file-extension: yaml
         # 是否动态刷新，默认为false
         refresh: true
-        namespace: aa9a3964-7840-4726-8480-dc2d2756ed2b
+        namespace: 4c179f92-409e-44b1-a4f6-8e088d02cf70
         group: DEV_GROUP
       discovery:
         server-addr: localhost:8848

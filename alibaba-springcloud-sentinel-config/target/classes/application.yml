@@ -11,6 +11,7 @@ spring:
       transport:
         dashboard: localhost:8080   #8080会监控的我们的8401服务
         port: 8719  #默认8719，假如被占用了会自动从8719开始依次+1扫描。直至找到未被占用的端口
+      web-context-unify: false
 #图形化展示配置
 management:
   endpoints:

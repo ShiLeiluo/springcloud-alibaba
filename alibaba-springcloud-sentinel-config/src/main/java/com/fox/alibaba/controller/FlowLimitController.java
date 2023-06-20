@@ -20,11 +20,13 @@ public class FlowLimitController {
 	
     @GetMapping("/testA")
     public String testA() {
+    
     	return "testA ";
     }
  
     @GetMapping("/testB")
-    public String testB() {
+    public String testB() throws InterruptedException {
+    	Thread.sleep(800);
 
     	return "testB ";
     }
