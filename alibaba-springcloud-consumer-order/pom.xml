@@ -39,12 +39,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>com.fox.alibaba</groupId>
-            <artifactId>alibaba-springcloud-api-commons</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
 		<!-- 上Alibaba nacos -->
 		<dependency>
 			<groupId>com.alibaba.cloud</groupId>
