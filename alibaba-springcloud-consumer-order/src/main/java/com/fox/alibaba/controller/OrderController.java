@@ -39,4 +39,15 @@ public class OrderController {
         return restTemplate.getForObject(PAYMENT_URL + "/payment/get/" + id, CommonResult.class);
  
     }
+    //获取id获取支付订单
+    @GetMapping("/order/hello")
+    public CommonResult<CommonResult> hello() {
+    	log.info("8080 order url: /order/hello");
+    	CommonResult<CommonResult> res = new CommonResult<>();
+    	res.setCode(200);
+    	res.setMessage("8080");
+    	res.setData(restTemplate.getForObject(PAYMENT_URL + "/payment/get/1", CommonResult.class));
+    	
+        return res;
+    }
 }

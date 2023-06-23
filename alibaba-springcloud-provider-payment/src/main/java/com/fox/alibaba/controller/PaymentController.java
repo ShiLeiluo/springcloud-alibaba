@@ -46,11 +46,11 @@ public class PaymentController {
  
     public CommonResult<Payment> queryById(@PathVariable("id") Long id){
         Payment payment = paymentService.queryById(id);
-        log.info("***************查询成功*********"+payment);
+        log.info("***********8001 查询成功*********"+payment);
         if(payment!=null){
-            return new CommonResult<Payment>(200,"查询成功",payment);
+            return new CommonResult<Payment>(200,"8001 查询成功",payment);
         }else{
-            return new CommonResult<Payment>(444,"查询失败",null);
+            return new CommonResult<Payment>(444,"8001 查询失败",null);
         }
     }
     

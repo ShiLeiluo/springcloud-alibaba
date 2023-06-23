@@ -12,6 +12,8 @@
 		<module>alibaba-springcloud-sentinel-config</module>
 		<module>alibaba-springcloud-getway-config</module>
 		<module>alibaba-springcloud-gateway-config</module>
+		<module>alibaba-springcloud-consumer-order-copy</module>
+		<module>alibaba-springcloud-provider-payment-8002</module>
 	</modules>
 
 
