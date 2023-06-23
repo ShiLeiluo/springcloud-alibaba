@@ -10,6 +10,8 @@
 	<modules>
 		<module>alibaba-springcloud-consumer-order</module>
 		<module>alibaba-springcloud-sentinel-config</module>
+		<module>alibaba-springcloud-getway-config</module>
+		<module>alibaba-springcloud-gateway-config</module>
 	</modules>
 
 

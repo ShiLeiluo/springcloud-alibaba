@@ -27,15 +27,15 @@ public class OrderController {
     @Autowired
     private RestTemplate restTemplate;
     //创建支付订单的接口
-    @GetMapping("/consumer/payment/create")
+    @GetMapping("/order/create")
     public CommonResult<Payment> create(Payment payment){
-    	log.info("80 order url: /consumer/payment/create");
+    	log.info("80 order url: /order/create");
         return restTemplate.postForObject(PAYMENT_URL+"/payment/create",payment, CommonResult.class);
     }
     //获取id获取支付订单
-    @GetMapping("/consumer/payment/get/{id}")
+    @GetMapping("/order/get/{id}")
     public CommonResult<Payment> getPayment(@PathVariable("id") Long id) {
-    	log.info("80 order url: /consumer/payment/get/{id}");
+    	log.info("80 order url: /order/get/{id}");
         return restTemplate.getForObject(PAYMENT_URL + "/payment/get/" + id, CommonResult.class);
  
     }
