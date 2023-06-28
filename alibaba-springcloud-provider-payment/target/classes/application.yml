@@ -8,6 +8,7 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
+
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     publicKeyOne: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALilJIZ3yrZqB7FSRqpy9JTPAA0aXX+5hmA0fxQrjch4X/3PnFNYEPl6z1F9aNc8qeH1eE1XDVa22OUDvPwkYU8CAwEAAQ==
