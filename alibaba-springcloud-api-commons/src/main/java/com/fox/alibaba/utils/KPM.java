@@ -7,8 +7,8 @@ package com.fox.alibaba.utils;
 */
 public class KPM {
 	public static void main(String[] args) {
-		String str1 = "i adore you";
-		String str2 = "maybe i adore you probably";
+		String str1 = "ababab";
+		String str2 = "ababababr";
 		int count = 0;
 		int m = str1.length();
 		int n = str2.length();

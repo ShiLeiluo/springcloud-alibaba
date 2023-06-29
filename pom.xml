@@ -31,6 +31,7 @@
 	<dependencyManagement>
 		<dependencies>
 			<!--spring-cloud-alibaba-->
+			<!-- springCloud-alibaba版本仲裁 -->
 			<dependency>
 				<groupId>com.alibaba.cloud</groupId>
 				<artifactId>spring-cloud-alibaba-dependencies</artifactId>
@@ -40,6 +41,7 @@
 			</dependency>
 			
 			<!-- springcloud的依赖-->
+			<!-- springCloud版本仲裁 -->
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
@@ -55,7 +57,7 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
-
+			<!--     引入版本仲裁之后就不需要再写其子项目的版本号了       -->
 
 			<!--  数据库
             <dependency>
