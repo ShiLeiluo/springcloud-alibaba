@@ -69,7 +69,6 @@
 			<artifactId>spring-boot-configuration-processor</artifactId>
 			<optional>true</optional>
 		</dependency>
-		
 		<!-- 上Alibaba nacos -->
 		<dependency>
 			<groupId>com.alibaba.cloud</groupId>
@@ -80,7 +79,5 @@
 			<artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
 		</dependency>
 
-
-        
 	</dependencies>
 </project>

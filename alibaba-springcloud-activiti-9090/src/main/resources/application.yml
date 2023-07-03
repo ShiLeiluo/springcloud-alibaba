@@ -1,0 +1,67 @@
+server:
+  port: 9090 #服务端口
+#spring相关配置
+spring:
+  application:
+    name: microservice-activiti  #服务名
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    publicKeyOne: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBALilJIZ3yrZqB7FSRqpy9JTPAA0aXX+5hmA0fxQrjch4X/3PnFNYEPl6z1F9aNc8qeH1eE1XDVa22OUDvPwkYU8CAwEAAQ==
+    druid:
+      one:
+        url: jdbc:sqlserver://10.132.56.70:3000;DatabaseName=ShiLeiluo
+        username: sa
+        password: jA9/LvG7Y48TtuGbdzXiws9BAmj4ZVF/+MIleNdwQ0iN31iVhSk39GRsSlk1sx6F4nhJp0CP2oxZ9s2lzOdeiA==
+        driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver 
+        db-type: sqlserver
+        passwordCallbackClassName: com.fox.component.DbPasswordCallback
+        connection-properties: config.decrypt=true;publicKey=${spring.datasource.publicKeyOne};password=${spring.datasource.druid.one.password}
+        # 异步初始化策略，可加快启动速度
+        async-init: true
+        # 初始化时建立物理连接的个数，同最小连接池数量
+        initial-size: 5
+        # 最小连接池数量（按需配置）
+        min-idle: 5
+         # 最大连接池数量（按需配置）
+        max-active: 500
+        # 获取连接超时, -1表示可一直等待
+        max-wait: 6000
+        # 是否缓存preparedStatement，缓存prepared-statements，开启的情况下增加字段可能会报错
+        pool-prepared-statements: false
+        # 缓存preparedStatement cache大小
+        max-open-prepared-statements: 20
+        # 检测连接是否有效的sql
+        validation-query: SELECT 1
+        # 申请连接时执行validationQuery检测连接是否有效
+        test-on-borrow: false
+        # 归还连接时执行validationQuery检测连接是否有效
+        test-on-return: false
+        # 如果空闲时间大于timeBetweenEvictionRunsMillis，执行validationQuery检测连接是否有效。
+        test-while-idle: true
+        # 两个含义：1.Destroy线程运行周期 2.testWhileIdle判断依据
+        time-between-eviction-runs-millis: 60000
+        # 连接保持空闲而不被驱逐的最小时间：5分钟
+        min-evictable-idle-time-millis: 300000
+      # 连接保持空闲而不被驱逐的最大时间: 2天，根据生产mysql配置的wait_time配置=2天
+        max-evictable-idle-time-millis: 172800000
+      # 是否keep-alive：
+      # 即当最小空闲连接空闲了min-evictable-idle-time-millis，执行validationQuery进行keepAlive
+        keep-alive: true
+         #打印druid统计信息：每天打印一次统计信息日志，后续根据日志帮助优化连接池配置和SQL（按需配置, -1表示关闭）
+        time-between-log-stats-millis: 86400000
+        filter:
+        # 统计filter，druid默认开启
+          stat:
+            enabled: true
+            # 打印慢SQL（如需）
+            log-slow-sql: true
+            # 耗时多久为慢SQL（按需配置）
+            slow-sql-millis: 3000
+mybatis:
+  config-location: classpath:dao/config/mybatis-config.xml
+  mapper-locations-One: classpath:dao/mapperOne/*.xml
+  type-aliases-package: com.fox.alibaba.pojo    # 所有pojo别名类所在包

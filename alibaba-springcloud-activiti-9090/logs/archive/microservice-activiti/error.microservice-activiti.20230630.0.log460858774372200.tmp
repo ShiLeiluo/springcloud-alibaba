@@ -1,0 +1,8 @@
+06-30 15:13:16 [restartedMain] | ERROR | com.alibaba.druid.pool.DruidAbstractDataSource   - load passwordCallback error : com.fox.alibaba.component.DbPasswordCallback 
+06-30 15:14:36 [restartedMain] | ERROR | com.alibaba.druid.pool.DruidAbstractDataSource   - load passwordCallback error : com.fox.alibaba.component.DbPasswordCallback 
+06-30 15:16:10 [restartedMain] | ERROR | com.alibaba.druid.pool.DruidAbstractDataSource   - load passwordCallback error : com.fox.alibaba.component.DbPasswordCallback 
+06-30 15:22:23 [restartedMain] | ERROR | com.alibaba.druid.pool.DruidAbstractDataSource   - load passwordCallback error : com.fox.alibaba.component.DbPasswordCallback 
+06-30 15:25:12 [restartedMain] | ERROR | com.alibaba.druid.pool.DruidAbstractDataSource   - load passwordCallback error : com.fox.alibaba.component.DbPasswordCallback 
+06-30 15:25:24 [restartedMain] | ERROR | com.alibaba.druid.pool.DruidAbstractDataSource   - load passwordCallback error : com.fox.alibaba.component.DbPasswordCallback 
+06-30 15:26:49 [restartedMain] | ERROR | com.alibaba.druid.pool.DruidAbstractDataSource   - load passwordCallback error : com.fox.alibaba.component.DbPasswordCallback 
+06-30 15:27:13 [restartedMain] | ERROR | com.alibaba.druid.pool.DruidAbstractDataSource   - load passwordCallback error : com.fox.alibaba.component.DbPasswordCallback 
