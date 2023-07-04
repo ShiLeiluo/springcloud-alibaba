@@ -1,0 +1,11 @@
+1.actiBPM
+IDEA开发工具的一个插件，可以让开发人员在IDEA中画流程图。
+
+2.Activiti Designer
+Eclipes开发工具的一个插件，可以让开发人员在Eclipes中画流程图。
+
+3.Activiti-Modeler
+基于Web的流程设计器，可以实现浏览器绘制activiti流程图。Activiti Modeler是一个BPMN web建模组件,是Activiti Explorer web应用的一部分，也就是Activiti官方的流程设计器，只是后面不更新了。
+
+4.bpmn-js
+市面上比较成熟和符合BPMN标准的一款建模工具，bpmn.js官网：https://bpmn.io/
