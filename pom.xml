@@ -15,6 +15,7 @@
 		<module>alibaba-springcloud-consumer-order-copy</module>
 		<module>alibaba-springcloud-provider-payment-8002</module>
 		<module>alibaba-springcloud-activiti-9090</module>
+		<module>alibaba-springcloud-redis-9091</module>
 	</modules>
 
 

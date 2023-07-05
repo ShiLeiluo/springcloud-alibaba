@@ -58,6 +58,7 @@ import com.fox.util.MyForm;
 
 import sun.misc.BASE64Encoder;
 
+@SuppressWarnings("restriction")
 @Controller
 @RequestMapping
 public class MainController {
@@ -344,7 +345,8 @@ public class MainController {
 
     }
 
-    @RequestMapping("generateProcessImg")
+    @SuppressWarnings("restriction")
+	@RequestMapping("generateProcessImg")
     @ResponseBody
     public JSONObject generateProcessImg(String processInstanceId) throws IOException {
 

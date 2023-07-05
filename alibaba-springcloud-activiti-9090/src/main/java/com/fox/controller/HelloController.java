@@ -30,7 +30,7 @@ public class HelloController {
     	this.studentDao = studentDao;
     }
     
-    @GetMapping("/hello")
+    @GetMapping("/helloActiviti")
     public String hello() {
     	SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     	StringBuffer sb = new StringBuffer();
