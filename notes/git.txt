@@ -12,3 +12,15 @@ git add .
 git commit -m "nacos"
 
 git push -u origin main -f
+--------------------------------------------------------------------------------------
+1.设置代理
+git config --global http.proxy  'http://127.0.0.1:9083' 
+git config --global https.proxy 'http://127.0.0.1:9083'
+2.取消代理
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+3.查看代理
+git config --global --get http.proxy
+git config --global --get https.proxy
+4.拓展知识
+git helper -a // 查看全部git子命令
