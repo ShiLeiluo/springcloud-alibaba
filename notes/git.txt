@@ -22,5 +22,7 @@ git config --global --unset https.proxy
 3.查看代理
 git config --global --get http.proxy
 git config --global --get https.proxy
+git config --local --get http.proxy
+git config --local --get https.proxy
 4.拓展知识
 git helper -a // 查看全部git子命令

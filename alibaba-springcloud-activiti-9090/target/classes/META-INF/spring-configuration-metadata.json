@@ -13,6 +13,287 @@
       "sourceMethod": "public javax.sql.DataSource datasourceTwo() "
     }
   ],
-  "properties": [],
+  "properties": [
+    {
+      "name": "mybatis.mapper-locations-One",
+      "type": "java.lang.String",
+      "description": "A description for 'mybatis.mapper-locations-One'"
+    },
+    {
+      "name": "mybatis.mapper-locations-Two",
+      "type": "java.lang.String",
+      "description": "A description for 'mybatis.mapper-locations-Two'"
+    },
+    {
+      "name": "spring.datasource.druid.one.async-init",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.async-init'"
+    },
+    {
+      "name": "spring.datasource.druid.one.connection-properties",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.connection-properties'"
+    },
+    {
+      "name": "spring.datasource.druid.one.db-type",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.db-type'"
+    },
+    {
+      "name": "spring.datasource.druid.one.driver-class-name",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.driver-class-name'"
+    },
+    {
+      "name": "spring.datasource.druid.one.filter.stat.enabled",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.filter.stat.enabled'"
+    },
+    {
+      "name": "spring.datasource.druid.one.filter.stat.log-slow-sql",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.filter.stat.log-slow-sql'"
+    },
+    {
+      "name": "spring.datasource.druid.one.filter.stat.slow-sql-millis",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.filter.stat.slow-sql-millis'"
+    },
+    {
+      "name": "spring.datasource.druid.one.initial-size",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.initial-size'"
+    },
+    {
+      "name": "spring.datasource.druid.one.keep-alive",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.keep-alive'"
+    },
+    {
+      "name": "spring.datasource.druid.one.max-active",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.max-active'"
+    },
+    {
+      "name": "spring.datasource.druid.one.max-evictable-idle-time-millis",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.max-evictable-idle-time-millis'"
+    },
+    {
+      "name": "spring.datasource.druid.one.max-open-prepared-statements",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.max-open-prepared-statements'"
+    },
+    {
+      "name": "spring.datasource.druid.one.max-wait",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.max-wait'"
+    },
+    {
+      "name": "spring.datasource.druid.one.min-evictable-idle-time-millis",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.min-evictable-idle-time-millis'"
+    },
+    {
+      "name": "spring.datasource.druid.one.min-idle",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.min-idle'"
+    },
+    {
+      "name": "spring.datasource.druid.one.password",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.password'"
+    },
+    {
+      "name": "spring.datasource.druid.one.passwordCallbackClassName",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.passwordCallbackClassName'"
+    },
+    {
+      "name": "spring.datasource.druid.one.pool-prepared-statements",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.pool-prepared-statements'"
+    },
+    {
+      "name": "spring.datasource.druid.one.test-on-borrow",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.test-on-borrow'"
+    },
+    {
+      "name": "spring.datasource.druid.one.test-on-return",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.test-on-return'"
+    },
+    {
+      "name": "spring.datasource.druid.one.test-while-idle",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.test-while-idle'"
+    },
+    {
+      "name": "spring.datasource.druid.one.time-between-eviction-runs-millis",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.time-between-eviction-runs-millis'"
+    },
+    {
+      "name": "spring.datasource.druid.one.time-between-log-stats-millis",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.time-between-log-stats-millis'"
+    },
+    {
+      "name": "spring.datasource.druid.one.url",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.url'"
+    },
+    {
+      "name": "spring.datasource.druid.one.username",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.username'"
+    },
+    {
+      "name": "spring.datasource.druid.one.validation-query",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.one.validation-query'"
+    },
+    {
+      "name": "spring.datasource.druid.two.async-init",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.async-init'"
+    },
+    {
+      "name": "spring.datasource.druid.two.connection-properties",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.connection-properties'"
+    },
+    {
+      "name": "spring.datasource.druid.two.db-type",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.db-type'"
+    },
+    {
+      "name": "spring.datasource.druid.two.driver-class-name",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.driver-class-name'"
+    },
+    {
+      "name": "spring.datasource.druid.two.filter.stat.enabled",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.filter.stat.enabled'"
+    },
+    {
+      "name": "spring.datasource.druid.two.filter.stat.log-slow-sql",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.filter.stat.log-slow-sql'"
+    },
+    {
+      "name": "spring.datasource.druid.two.filter.stat.slow-sql-millis",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.filter.stat.slow-sql-millis'"
+    },
+    {
+      "name": "spring.datasource.druid.two.initial-size",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.initial-size'"
+    },
+    {
+      "name": "spring.datasource.druid.two.keep-alive",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.keep-alive'"
+    },
+    {
+      "name": "spring.datasource.druid.two.max-active",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.max-active'"
+    },
+    {
+      "name": "spring.datasource.druid.two.max-evictable-idle-time-millis",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.max-evictable-idle-time-millis'"
+    },
+    {
+      "name": "spring.datasource.druid.two.max-open-prepared-statements",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.max-open-prepared-statements'"
+    },
+    {
+      "name": "spring.datasource.druid.two.max-wait",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.max-wait'"
+    },
+    {
+      "name": "spring.datasource.druid.two.min-evictable-idle-time-millis",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.min-evictable-idle-time-millis'"
+    },
+    {
+      "name": "spring.datasource.druid.two.min-idle",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.min-idle'"
+    },
+    {
+      "name": "spring.datasource.druid.two.password",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.password'"
+    },
+    {
+      "name": "spring.datasource.druid.two.passwordCallbackClassName",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.passwordCallbackClassName'"
+    },
+    {
+      "name": "spring.datasource.druid.two.pool-prepared-statements",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.pool-prepared-statements'"
+    },
+    {
+      "name": "spring.datasource.druid.two.test-on-borrow",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.test-on-borrow'"
+    },
+    {
+      "name": "spring.datasource.druid.two.test-on-return",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.test-on-return'"
+    },
+    {
+      "name": "spring.datasource.druid.two.test-while-idle",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.test-while-idle'"
+    },
+    {
+      "name": "spring.datasource.druid.two.time-between-eviction-runs-millis",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.time-between-eviction-runs-millis'"
+    },
+    {
+      "name": "spring.datasource.druid.two.time-between-log-stats-millis",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.time-between-log-stats-millis'"
+    },
+    {
+      "name": "spring.datasource.druid.two.url",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.url'"
+    },
+    {
+      "name": "spring.datasource.druid.two.username",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.username'"
+    },
+    {
+      "name": "spring.datasource.druid.two.validation-query",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.druid.two.validation-query'"
+    },
+    {
+      "name": "spring.datasource.publicKeyOne",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.publicKeyOne'"
+    },
+    {
+      "name": "spring.datasource.publicKeyTwo",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.datasource.publicKeyTwo'"
+    }
+  ],
   "hints": []
 }
