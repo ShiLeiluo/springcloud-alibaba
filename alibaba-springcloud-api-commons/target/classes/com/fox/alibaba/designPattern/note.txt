@@ -1,0 +1,22 @@
+https://refactoringguru.cn/
+
+1. 设计模式是常见问题的典型解决方案
+
+2. 创建型模式: 提供创建对象的机制, 提供代码的可用性和复用性
+
+3. 结构型模式: 介绍将对象和类组装成较大的结构, 并保持结构的灵活和高效
+
+4. 行为型模式: 负责对象间的高效沟通和责任派委
+
+简单工厂模式 : 工厂类里面根据条件实例化对象
+工厂接口 : 
+1. 工厂模式 : 通过工厂类里面的方法去实例化对象
+2. 抽象工厂模式 : 工厂类里面多个实例化对象的方法
+
+3. 建造者模式 : Builder里面new 一个对象, 组装类里面用Builder的方法赋值
+重叠构造器模式 : 构造器的数量多, 参数代表模糊
+javabean模式 : 线程不安全
+lombok : 
+@Builder : 流式set值写法
+@Data = @Getter/@Setter, @ToString, @EqualsAndHashCode, @RequiredArgsConstructor 
+@Value 所有的变量都设成 final = @Getter (注意没有setter), @ToString, @EqualsAndHashCode, @RequiredArgsConstructor

@@ -61,7 +61,7 @@ public class Computer {
 		private void constract(Computer computer) {
 			computer.setmBoard(mBoard);
 			computer.setmDisplay(mDisplay);
-			computer.setmOS(mOS);
+//			computer.setmOS(mOS);
 		}
 		
 		public Computer create() {
