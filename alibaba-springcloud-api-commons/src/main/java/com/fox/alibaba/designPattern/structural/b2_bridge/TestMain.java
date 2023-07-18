@@ -11,6 +11,8 @@ public class TestMain {
  
         //蛋糕
         Fruit mango = new Mango();
+        
+        
         Food cake = new Cake();
         cake.setFruit(mango);
         cake.add();

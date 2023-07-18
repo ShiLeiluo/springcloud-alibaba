@@ -66,14 +66,16 @@ public class Sheep implements Cloneable {
 			sheep.friend = new Sheep("jack", 2, "黑色");
 
 			Sheep sheep2 = (Sheep)sheep.clone(); //克隆
+			sheep.setName("jerry");
 			Sheep sheep3 = (Sheep)sheep.clone(); //克隆
+			sheep.friend.setName("aaa");
 			Sheep sheep4 = (Sheep)sheep.clone(); //克隆
 			Sheep sheep5 = (Sheep)sheep.clone(); //克隆
 			
-			System.out.println("sheep2 =" + sheep2 + "sheep2.friend=" + sheep2.friend.hashCode());
-			System.out.println("sheep3 =" + sheep3 + "sheep3.friend=" + sheep3.friend.hashCode());
-			System.out.println("sheep4 =" + sheep4 + "sheep4.friend=" + sheep4.friend.hashCode());
-			System.out.println("sheep5 =" + sheep5 + "sheep5.friend=" + sheep5.friend.hashCode());
+			System.out.println("sheep2 =" + sheep2 + ", sheep2.friend=" + sheep2.friend.hashCode()+" color: " + sheep2.friend.name);
+			System.out.println("sheep3 =" + sheep3 + ", sheep3.friend=" + sheep3.friend.hashCode()+" color: " + sheep3.friend.name);
+			System.out.println("sheep4 =" + sheep4 + ", sheep4.friend=" + sheep4.friend.hashCode()+" color: " + sheep4.friend.name);
+			System.out.println("sheep5 =" + sheep5 + ", sheep5.friend=" + sheep5.friend.hashCode()+" color: " + sheep5.friend.name);
 		}
 }
 

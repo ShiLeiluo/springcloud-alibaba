@@ -20,7 +20,7 @@ public class MediatorTest {
         // 闹钟响了，会自动打开窗帘
         alarm.openAlarm();
         curtain.openCurtain();
-        // 灯开了，会自动关闭闹钟
+//        // 灯开了，会自动关闭闹钟
         lamp.openLamp();
     }
 
