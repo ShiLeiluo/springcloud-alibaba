@@ -48,5 +48,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="lib/sapjco3.jar"/>
+	<classpathentry kind="lib" path="lib/hello.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
