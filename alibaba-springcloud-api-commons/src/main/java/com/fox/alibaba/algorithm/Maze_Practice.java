@@ -1,4 +1,4 @@
-package com.fox.alibaba.utils;
+ package com.fox.alibaba.algorithm;
 
 import java.util.ArrayList;
 

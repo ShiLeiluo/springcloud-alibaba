@@ -1,4 +1,4 @@
-package com.fox.alibaba.utils;
+package com.fox.alibaba.algorithm;
 
 /**
 * @author F1337248 ShiLeiluo

@@ -14,10 +14,10 @@ import java.io.OutputStreamWriter;
  * @date 2023-03-13 13:55
  * @version 1.0
  */
-public class JiuZhou {
+public class BookFormat {
 	public static void main(String[] args) throws IOException {
 		System.out.println("******开始");
-		File file = new File("E:\\books\\books-master\\九州缥缈录-江南.txt");
+		File file = new File("E:\\2023\\WIN\\books\\7555.txt");
 		FileInputStream fileInputStream = new FileInputStream(file);
 		InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream, "UTF-8");
 		BufferedReader br = new BufferedReader(inputStreamReader);
@@ -25,7 +25,7 @@ public class JiuZhou {
 		int len;
 		int n;
 		
-		File f = new File("E:\\books\\books-master\\九州缥缈录-江南-Format.txt");
+		File f = new File("E:\\2023\\WIN\\books\\7555 format.txt");
 		FileOutputStream fileOutputStream = new FileOutputStream(f);
 		OutputStreamWriter outputStreamWriter = new OutputStreamWriter(fileOutputStream, "UTF-8");
 		BufferedWriter bw = new BufferedWriter(outputStreamWriter);
