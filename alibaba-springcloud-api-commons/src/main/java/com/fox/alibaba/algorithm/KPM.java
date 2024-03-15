@@ -4,11 +4,12 @@ package com.fox.alibaba.algorithm;
 * @author F1337248 ShiLeiluo
 * @date 2023-06-20 18:07
 * @version 1.0
+* 模式串在文本串是否出现过  
 */
 public class KPM {
 	public static void main(String[] args) {
-		String str1 = "ababab";
-		String str2 = "ababababr";
+		String str1 = "issip";
+		String str2 = "mississippi";
 		int count = 0;
 		int m = str1.length();
 		int n = str2.length();

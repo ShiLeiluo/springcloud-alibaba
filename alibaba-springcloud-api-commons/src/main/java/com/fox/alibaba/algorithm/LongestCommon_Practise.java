@@ -4,6 +4,7 @@ package com.fox.alibaba.algorithm;
 * @author F1337248 ShiLeiluo
 * @date 2023-06-28 15:56
 * @version 1.0
+* 最长公共子串
 */
 public class LongestCommon_Practise {
 	public static void main(String[] args) {
@@ -15,6 +16,7 @@ public class LongestCommon_Practise {
 		int m = str1.length() + 1;
 		int n = str2.length() + 1;
 		int max = Integer.MIN_VALUE;
+
 		int idx = 0;
 		int[][] dp = new int[m][n];
 		for (int i = 1; i < m; i++) {

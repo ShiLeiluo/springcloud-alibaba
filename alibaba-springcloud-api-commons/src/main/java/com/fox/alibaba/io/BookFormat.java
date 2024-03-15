@@ -17,7 +17,7 @@ import java.io.OutputStreamWriter;
 public class BookFormat {
 	public static void main(String[] args) throws IOException {
 		System.out.println("******开始");
-		File file = new File("E:\\2023\\WIN\\books\\龙族3黑月之潮(下).txt");
+		File file = new File("E:\\2023\\WIN\\books\\龙族5悼亡者归来.txt");
 		FileInputStream fileInputStream = new FileInputStream(file);
 		InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream, "UTF-8");
 		BufferedReader br = new BufferedReader(inputStreamReader);
@@ -25,7 +25,7 @@ public class BookFormat {
 		int len;
 		int n;
 		
-		File f = new File("E:\\2023\\WIN\\books\\3下.txt");
+		File f = new File("E:\\2023\\WIN\\books\\龙族5_format.txt");
 		FileOutputStream fileOutputStream = new FileOutputStream(f);
 		OutputStreamWriter outputStreamWriter = new OutputStreamWriter(fileOutputStream, "UTF-8");
 		BufferedWriter bw = new BufferedWriter(outputStreamWriter);

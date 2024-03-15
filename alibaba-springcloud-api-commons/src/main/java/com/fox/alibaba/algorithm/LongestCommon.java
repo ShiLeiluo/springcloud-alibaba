@@ -4,6 +4,7 @@ package com.fox.alibaba.algorithm;
 * @author F1337248 ShiLeiluo
 * @date 2023-06-20 17:55
 * @version 1.0
+* 最长公共子串
 */
 public class LongestCommon {
 	public static void main(String[] args) {
