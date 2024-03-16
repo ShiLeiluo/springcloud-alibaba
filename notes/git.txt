@@ -1,7 +1,7 @@
-git config --global http.proxy 'http://F1329986:Fox0608.@10.191.131.15:3128'
-git config --global https.proxy 'http://F1329986:Fox0608.@10.191.131.15:3128'
-git config --local http.proxy 'http://F1329986:Fox0608.@10.191.131.15:3128'
-git config --local https.proxy 'http://F1329986:Fox0608.@10.191.131.15:3128'
+git config --global http.proxy 'http://F1329986:Fox0609.@10.191.131.15:3128'
+git config --global https.proxy 'http://F1329986:Fox0609.@10.191.131.15:3128'
+git config --local http.proxy 'http://F1329986:Fox0609.@10.191.131.15:3128'
+git config --local https.proxy 'http://F1329986:Fox0609.@10.191.131.15:3128'
 
 git remote add origin https://github.com/ShiLeiluo/springcloud-alibaba.git
 
@@ -9,7 +9,7 @@ git remote add origin https://github.com/ShiLeiluo/springcloud-alibaba.git
 git add .
 
 
-git commit -m "nacos"
+git commit -m "leetcode"
 
 git push -u origin main -f
 --------------------------------------------------------------------------------------
