@@ -5,9 +5,9 @@ package com.fox.alibaba.leetcode150;
  * @date 2024-03-06 13:57
  * @version 1.0
  */
-public class Classic030_Arr_SubSum_SlidingWindow {
+public class Classic030_SlidingWindow_SubSum {
 	public static void main(String[] args) {
-		Classic030_Arr_SubSum_SlidingWindow c11 = new Classic030_Arr_SubSum_SlidingWindow();
+		Classic030_SlidingWindow_SubSum c11 = new Classic030_SlidingWindow_SubSum();
 		int target = 15;
 		int[] nums = { 5, 1, 3, 5, 10, 7, 4, 9, 2, 8 };
 

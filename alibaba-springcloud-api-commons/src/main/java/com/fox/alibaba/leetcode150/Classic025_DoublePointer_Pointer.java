@@ -5,9 +5,9 @@ package com.fox.alibaba.leetcode150;
 * @date 2024-03-04 10:51
 * @version 1.0
 */
-public class Classic025_String_Pointer {
+public class Classic025_DoublePointer_Pointer {
 	public static void main(String[] args) {
-		Classic025_String_Pointer cc05 = new Classic025_String_Pointer();
+		Classic025_DoublePointer_Pointer cc05 = new Classic025_DoublePointer_Pointer();
 		
 		System.out.println(cc05.isPalindrome1("A mAs"));
 	}

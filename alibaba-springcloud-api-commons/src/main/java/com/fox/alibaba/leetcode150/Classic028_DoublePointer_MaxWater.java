@@ -5,9 +5,9 @@ package com.fox.alibaba.leetcode150;
  * @date 2024-03-05 08:46
  * @version 1.0
  */
-public class Classic028_Arr_MaxWater {
+public class Classic028_DoublePointer_MaxWater {
 	public static void main(String[] args) {
-		Classic028_Arr_MaxWater c09 = new Classic028_Arr_MaxWater();
+		Classic028_DoublePointer_MaxWater c09 = new Classic028_DoublePointer_MaxWater();
 		int[] height = { 1, 3, 2, 5, 25, 24, 5 };// 24
 		System.out.println(c09.maxArea(height));
 

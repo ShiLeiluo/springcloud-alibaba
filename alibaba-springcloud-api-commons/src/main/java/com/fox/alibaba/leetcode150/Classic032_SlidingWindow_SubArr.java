@@ -10,7 +10,7 @@ import java.util.Map;
  * @date 2024-03-07 15:48
  * @version 1.0
  */
-public class Classic032_String_SubArr {
+public class Classic032_SlidingWindow_SubArr {
 
 	public List<Integer> findSubstring(String s, String[] words) {
 		int n = s.length(), m = words.length, w = words[0].length();

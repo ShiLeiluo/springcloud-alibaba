@@ -12,9 +12,9 @@ import java.util.stream.Collectors;
  * @date 2024-03-05 14:45
  * @version 1.0
  */
-public class Classic029_Arr_ThreeSum_DoublePointer {
+public class Classic029_DoublePointer_ThreeSum {
 	public static void main(String[] args) {
-		Classic029_Arr_ThreeSum_DoublePointer c10 = new Classic029_Arr_ThreeSum_DoublePointer();
+		Classic029_DoublePointer_ThreeSum c10 = new Classic029_DoublePointer_ThreeSum();
 		int[] sums = { -1, 0, 1, 2, -1, -4 };
 
 		System.out.println(c10.threeSum(sums));

@@ -9,9 +9,9 @@ import java.util.Map;
 * @date 2024-03-07 16:05
 * @version 1.0
 */
-public class Classic033_String_MinWindow {
+public class Classic033_SlidingWindow_MinWindow {
 	public static void main(String[] args) {
-		Classic033_String_MinWindow c33 = new Classic033_String_MinWindow();
+		Classic033_SlidingWindow_MinWindow c33 = new Classic033_SlidingWindow_MinWindow();
 		String s = "ADOBECODEBANC";
 		String t = "ABC";
 		System.out.println(c33.minWindow(s, t));

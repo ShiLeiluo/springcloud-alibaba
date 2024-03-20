@@ -9,9 +9,9 @@ import java.util.Map;
 * @date 2024-03-04 17:19
 * @version 1.0
 */
-public class Classic027_Arr_Sum {
+public class Classic027_DoublePointer_Sum {
 	public static void main(String[] args) {
-		Classic027_Arr_Sum c08 = new Classic027_Arr_Sum();
+		Classic027_DoublePointer_Sum c08 = new Classic027_DoublePointer_Sum();
 		int numbers[] = {2,3,4};
 		int target = 6;
 		System.out.println(Arrays.toString(c08.twoSum2(numbers, target)));

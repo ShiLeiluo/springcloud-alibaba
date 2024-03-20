@@ -5,9 +5,9 @@ package com.fox.alibaba.leetcode150;
 * @date 2024-03-04 14:20
 * @version 1.0
 */
-public class Classic026_String_Subsequence {
+public class Classic026_DoublePointer_Subsequence {
 	public static void main(String[] args) {
-		Classic026_String_Subsequence c07 = new Classic026_String_Subsequence();
+		Classic026_DoublePointer_Subsequence c07 = new Classic026_DoublePointer_Subsequence();
 		String s = "";
 		String t = "ahbgdc";
 		System.out.println(c07.isSubsequence(s, t));
