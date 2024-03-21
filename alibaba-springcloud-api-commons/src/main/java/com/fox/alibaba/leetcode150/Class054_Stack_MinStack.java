@@ -1,5 +1,8 @@
 package com.fox.alibaba.leetcode150;
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 /**
 * @author F1337248 ShiLeiluo
 * @date 2024-03-19 20:20
@@ -15,27 +18,33 @@ public class Class054_Stack_MinStack {
 		 int param_4 = obj.getMin();
 		 System.out.println(param_3+" "+param_4);
 	}
-    public Class054_Stack_MinStack() {
+	Deque<Integer> xStack;
+    Deque<Integer> minStack;
 
+    public Class054_Stack_MinStack() {
+        xStack = new LinkedList<Integer>();
+        minStack = new LinkedList<Integer>();
+        minStack.push(Integer.MAX_VALUE);
     }
     
-    public void push(int val) {
-
+    public void push(int x) {
+        xStack.push(x);
+        minStack.push(Math.min(minStack.peek(), x));
     }
     
     public void pop() {
-
+        xStack.pop();
+        minStack.pop();
     }
     
     public int top() {
-		return 0;
-
+        return xStack.peek();
     }
     
     public int getMin() {
-		return 0;
-
+        return minStack.peek();
     }
+
 }
 /**
  * Your MinStack object will be instantiated and called as such:
