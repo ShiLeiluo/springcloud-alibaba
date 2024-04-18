@@ -16,14 +16,20 @@ import javax.swing.JFrame;
 */
 public class Magnify extends JFrame{
 
-    // object
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	// object
     static Magnify m;
 
     // image
     Image i;
 
     // default constructor
-    Magnify()
+    @SuppressWarnings("deprecation")
+	Magnify()
     {
         // create a frame
         super("magnify");

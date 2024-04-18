@@ -5,7 +5,7 @@ package com.fox.alibaba.concurrent;
 * @date 2024-03-19 15:40
 * @version 1.0
 */
-
+//synchronized的可重入性
 public class Classic04_Synchronized_Runnable implements Runnable{
     static Classic04_Synchronized_Runnable instance=new Classic04_Synchronized_Runnable();
     static int a=0;
