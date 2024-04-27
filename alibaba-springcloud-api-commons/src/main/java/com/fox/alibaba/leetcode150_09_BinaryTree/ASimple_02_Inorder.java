@@ -23,6 +23,8 @@ public class ASimple_02_Inorder {
 		
 		ASimple_02_Inorder inorder = new ASimple_02_Inorder();
 		inorder.inOrder_dfs(root);
+		System.out.println();
+		inorder.inOrder_bfs(root);
 	}
 	public void inOrder_dfs(TreeNode root){
         if(root==null){

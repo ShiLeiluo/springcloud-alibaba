@@ -7,9 +7,13 @@ import sun.misc.Unsafe;
 * @version 1.0
 */
 
-// 异常原因:
-// 这是因为在getUnsafe方法中，会对调用者的classLoader进行检查，判断当前类是否由Bootstrap classLoader加载，如果不是的话就会抛出一个SecurityException异常。
-// 也就是说，只有启动类加载器加载的类才能够调用 Unsafe 类中的方法，这是为了防止这些方法在不可信的代码中被调用。
+/**
+ * 异常原因:
+ * 这是因为在getUnsafe方法中，会对调用者的classLoader进行检查，判断当前类是否由Bootstrap classLoader加载，如果不是的话就会抛出一个SecurityException异常。
+ * 也就是说，只有启动类加载器加载的类才能够调用 Unsafe 类中的方法，这是为了防止这些方法在不可信的代码中被调用。
+ * @author F1337248
+ *
+ */
 public class UnsafeDemo {
     volatile long state = 0;//变量
     static final Unsafe UNSAFE = Unsafe.getUnsafe();//获取Unsafe的实例
