@@ -9,7 +9,7 @@ package com.fox.alibaba.designPattern.structural.g7_proxy.staticProxy;
 public class MainStatic {
  public static void main(String[] args) {
      StaticProxyHello staticProxyHello = new StaticProxyHello();
-     staticProxyHello.sayHello("isole");
+     staticProxyHello.sayHello("staticProxy");
  }
 }
 

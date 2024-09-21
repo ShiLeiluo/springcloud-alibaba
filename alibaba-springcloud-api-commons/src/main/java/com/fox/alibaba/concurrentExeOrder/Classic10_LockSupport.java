@@ -7,6 +7,7 @@ import java.util.concurrent.locks.LockSupport;
 * @date 2024-04-24 19:10
 * @version 1.0
 */
+// park、unpark是通过我们的老朋友Unsafe类实现的
 public class Classic10_LockSupport {
 
 	public static void main(String[] args) {

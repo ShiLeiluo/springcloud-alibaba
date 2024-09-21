@@ -1,4 +1,4 @@
-package com.fox.alibaba.jSwing;
+package com.fox.alibaba.jswing;
 
 import javax.swing.JFrame;
 

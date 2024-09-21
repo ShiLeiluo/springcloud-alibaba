@@ -17,7 +17,7 @@ public class OCRProxy {
 		    new Authenticator() {
 		        @Override
 		        public PasswordAuthentication getPasswordAuthentication() {
-		              return new PasswordAuthentication("F1329986", "Fox0608.".toCharArray());
+		              return new PasswordAuthentication("F1329986", "Fox0609.".toCharArray());
 		        }
 		    }
 		);
